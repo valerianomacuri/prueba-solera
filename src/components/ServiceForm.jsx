@@ -48,6 +48,9 @@ function ServiceForm() {
               value={formData.name}
               onChange={handleInputChange}
             />
+            <Form.Text className="text-muted">
+              Nombre es un campo obligatorio
+            </Form.Text>
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Label>Descripción</Form.Label>
@@ -58,6 +61,9 @@ function ServiceForm() {
               value={formData.description}
               onChange={handleInputChange}
             />
+            <Form.Text className="text-muted">
+              Descripción es un campo obligatorio
+            </Form.Text>
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Label>Categoría</Form.Label>
